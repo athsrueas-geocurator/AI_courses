@@ -1,0 +1,22 @@
+# Visual Studio workspace cache (recommended)
+.vs/
+
+# VS “browse database” / IntelliSense / index DBs (often stored under .vs but can appear elsewhere)
+**/CodeChunks.db
+**/CodeChunks.db-shm
+**/CodeChunks.db-wal
+**/SemanticSymbols.db
+**/SemanticSymbols.db-shm
+**/SemanticSymbols.db-wal
+**/snx.sqlite
+
+# VS workspace state files
+**/VSWorkspaceState.json
+**/ProjectSettings.json
+**/DocumentLayout.json
+
+# Common VS user/cache files (safe to ignore)
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
