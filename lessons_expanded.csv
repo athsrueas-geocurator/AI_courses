@@ -1,133 +1,133 @@
-lesson_id,course_id,lesson_num,lesson_title,lesson_url,topic_tags
-az-01,azure-llmops-workshop,1,"Lab 01: Introduction to LLMs and Azure AI Services",https://microsoft.github.io/llmops-workshop/labs/lesson_01/lab01.html,"lifecycle,intro"
-az-02,azure-llmops-workshop,2,"Lab 02: Building LLM Orchestration Flows",https://microsoft.github.io/llmops-workshop/labs/lesson_02/lab02.html,"orchestration,prompt-management"
-az-03,azure-llmops-workshop,3,"Lab 03: Evaluating and Deploying LLMs",https://microsoft.github.io/llmops-workshop/labs/lesson_03/lab03.html,"evaluation,deployment"
-az-04,azure-llmops-workshop,4,"Lab 04: Monitoring and Responsible AI",https://microsoft.github.io/llmops-workshop/labs/lesson_04/lab04.html,"monitoring,observability,content-safety"
-az-05,azure-llmops-workshop,5,"Lab 05: Automating Everything (CI/CD)",https://microsoft.github.io/llmops-workshop/labs/lesson_05/lab05.html,"automation,ci-cd"
-az-06,azure-llmops-workshop,6,"Extra: Benchmarking Azure OpenAI Models",https://microsoft.github.io/llmops-workshop/labs/lesson_06/benchmarking.html,"performance,evaluation"
-az-07,azure-llmops-workshop,7,"Extra: Performance Evaluation / Load Testing",https://microsoft.github.io/llmops-workshop/labs/lesson_06/performance.html,"performance,load-testing"
-
-gcp-01,gcp-llmops-overview,1,"What is LLMOps (overview)",https://cloud.google.com/discover/what-is-llmops,"lifecycle,definition"
-gcp-02,gcp-llmops-overview,2,"Vertex AI Model Registry (lifecycle management)",https://docs.cloud.google.com/vertex-ai/docs/model-registry/introduction,"model-registry,versioning"
-gcp-03,gcp-llmops-overview,3,"Vertex AI Pipelines (automation)",https://docs.cloud.google.com/vertex-ai/docs/pipelines/introduction,"pipelines,automation"
-gcp-04,gcp-llmops-overview,4,"Vertex AI Model Evaluation (overview)",https://docs.cloud.google.com/vertex-ai/docs/evaluation/introduction,"evaluation"
-gcp-05,gcp-llmops-overview,5,"Vertex AI Model Monitoring (overview)",https://docs.cloud.google.com/vertex-ai/docs/model-monitoring/overview,"monitoring"
-
-awsw-00,aws-llmops-workshop,1,"Lab 0: Register base model (notebook)",https://github.com/aws-samples/llmops-workshop/blob/main/lab0-register-base-model.ipynb,"model-registry,lifecycle"
-awsw-01,aws-llmops-workshop,2,"Lab 1: Finetune Llama2 with QLoRA (notebook)",https://github.com/aws-samples/llmops-workshop/blob/main/lab1-sagemaker-finetune-llama2-qlora.ipynb,"post-training,qlora,peft"
-awsw-02,aws-llmops-workshop,3,"Lab 2: Build SageMaker pipeline for LLM (notebook)",https://github.com/aws-samples/llmops-workshop/blob/main/lab2-sagemaker-pipeline-llm.ipynb,"pipelines,automation"
-awsw-03,aws-llmops-workshop,4,"Lab 3: Foundation model monitoring (folder)",https://github.com/aws-samples/llmops-workshop/tree/main/lab3-sagemaker-fm-monitoring,"monitoring,observability"
-awsw-04,aws-llmops-workshop,5,"Lab 4: JumpStart embeddings (notebook)",https://github.com/aws-samples/llmops-workshop/blob/main/lab4-sagemaker-jumpstart-embeddings.ipynb,"embeddings,retrieval"
-awsw-05,aws-llmops-workshop,6,"Lab 5: Knowledge base chatbot (notebook)",https://github.com/aws-samples/llmops-workshop/blob/main/lab5-knowledge-base-chatbot.ipynb,"rag,app-integration"
-
-awsb-01,aws-llmops-blog-series,1,"LLMOps solution overview (Part I)",https://aws.amazon.com/blogs/gametech/operationalize-generative-ai-applications-on-aws-part-i-overview-of-llmops-solution/,"architecture,lifecycle"
-awsb-02,aws-llmops-blog-series,2,"SageMaker Clarify: Get started with model evaluations",https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-foundation-model-evaluate-get-started.html,"evaluation"
-awsb-03,aws-llmops-blog-series,3,"SageMaker Model Monitor (examples index)",https://sagemaker-examples.readthedocs.io/en/latest/sagemaker_model_monitor/index.html,"monitoring"
-awsb-04,aws-llmops-blog-series,4,"SageMaker Clarify + fmeval (re:Post article)",https://repost.aws/articles/ARXsxgLFa7R-uw8TgUo1fDJg/accelerate-foundation-model-evaluation-with-amazon-sagemaker-clarify-and-fmeval,"evaluation,tooling"
-
-db-01,databricks-llmops,1,"Databricks LLMOps overview",https://www.databricks.com/glossary/llmops,"definition,lifecycle"
-db-02,databricks-llmops,2,"Evaluate and monitor AI agents (MLflow for GenAI)",https://docs.databricks.com/aws/en/mlflow3/genai/eval-monitor/,"evaluation,monitoring,agents"
-db-03,databricks-llmops,3,"Implement LLMOps with Azure Databricks (lab)",https://microsoftlearning.github.io/mslearn-databricks/Instructions/Exercises/AI-07-LLMOps.html,"deployment,tracking,governance"
-db-04,databricks-llmops,4,"Microsoft Learn module: Implement LLMOps with Azure Databricks",https://learn.microsoft.com/en-us/training/modules/implement-llmops-azure-databricks/,"lifecycle,deployment"
-
-ibm-01,ibm-llmops,1,"IBM: What are Large Language Model Operations (LLMOps)?",https://www.ibm.com/think/topics/llmops,"definition,lifecycle"
-ibm-02,ibm-llmops,2,"IBM watsonx guide (LLMOps framing)",https://ibm.github.io/MLOps/watsonx/watsonx/watsonx.pdf,"governance,lifecycle"
-ibm-03,ibm-llmops,3,"IBM community: Build an agentic LLMOps stack with watsonx",https://community.ibm.com/community/user/blogs/patrick-meyer/2025/09/18/build-an-agentic-llmops-stack-with-ibm-watsonx,"agents,orchestration,governance"
-ibm-04,ibm-llmops,4,"IBM MLOps guide (governance/risk)",https://ibm.github.io/MLOps/pdf/mlops-guide.pdf,"governance,risk"
-
-oci-01,oracle-llmops,1,"Oracle LLMOps overview",https://www.oracle.com/artificial-intelligence/llmops/,"definition,monitoring"
-oci-02,oracle-llmops,2,"Deploy LLM on OCI Data Science using BYOC (vLLM)",https://github.com/oracle-samples/oci-data-science-ai-samples/blob/main/LLM/deploy-llm-byoc.md,"deployment,serving,open-models"
-oci-03,oracle-llmops,3,"OCI Observability & Monitoring platform (PDF guide)",https://www.oracle.com/a/otn/docs/oracle_distributed_cloud_systems_oci_observability_and_management_v.0.2.pdf,"observability,monitoring"
-oci-04,oracle-llmops,4,"Monitoring OCI DevOps performance (Observability & Mgmt)",https://www.ateam-oracle.com/monitor-oci-devops-performance-observability-and-management,"ci-cd,monitoring"
-
-hf-01,hf-open-llmops-primitives,1,"TRL docs index",https://huggingface.co/docs/trl/index,"post-training,rlhf,dpo"
-hf-02,hf-open-llmops-primitives,2,"PEFT docs index",https://huggingface.co/docs/peft/index,"peft,lora"
-hf-03,hf-open-llmops-primitives,3,"Accelerate docs index",https://huggingface.co/docs/accelerate/index,"distributed-training"
-hf-04,hf-open-llmops-primitives,4,"Transformers pipeline tutorial",https://github.com/huggingface/transformers/blob/main/docs/source/en/pipeline_tutorial.md,"inference,ecosystem-primitives"
-
-el-01,eleutherai-eval,1,"lm-evaluation-harness repo (core)",https://github.com/EleutherAI/lm-evaluation-harness,"evaluation,reproducibility"
-el-02,eleutherai-eval,2,"lm-evaluation-harness docs folder",https://github.com/EleutherAI/lm-evaluation-harness/tree/main/docs,"tasks,prompt-templates"
-el-03,eleutherai-eval,3,"lm-evaluation-harness models/backends",https://github.com/EleutherAI/lm-evaluation-harness/tree/main/lm_eval/models,"backends,serving-integration"
-el-04,eleutherai-eval,4,"lm-evaluation-harness usage",https://github.com/EleutherAI/lm-evaluation-harness#usage,"tooling,workflows"
-
-vllm-01,vllm-serving,1,"vLLM docs (landing)",https://docs.vllm.ai/,"serving,inference"
-vllm-02,vllm-serving,2,"OpenAI-compatible server",https://docs.vllm.ai/en/v0.13.0/serving/openai_compatible_server/,"openai-compatible-api,serving"
-vllm-03,vllm-serving,3,"vLLM GitHub repository",https://github.com/vllm-project/vllm,"implementation,deploy"
-vllm-04,vllm-serving,4,"vLLM serving guides index",https://docs.vllm.ai/en/latest/serving/,"deployment,ops"
-
-mlf-01,mlflow-genai,1,"MLflow: Evaluate prompts (Prompt Registry)",https://mlflow.org/docs/latest/genai/prompt-registry/evaluate-prompts/,"prompt-management,evaluation"
-mlf-02,mlflow-genai,2,"Databricks: Evaluate & monitor AI agents",https://docs.databricks.com/aws/en/mlflow3/genai/eval-monitor/,"evaluation,monitoring"
-mlf-03,mlflow-genai,3,"Azure Databricks: Evaluate & monitor AI agents",https://learn.microsoft.com/en-us/azure/databricks/mlflow3/genai/eval-monitor/,"evaluation,monitoring"
-mlf-04,mlflow-genai,4,"Databricks LLMOps glossary (context)",https://www.databricks.com/glossary/llmops,"lifecycle,tracking"
-
-orlhf-01,openrlhf-posttraining,1,"OpenRLHF repository (overview)",https://github.com/OpenRLHF/OpenRLHF,"rlhf,post-training"
-orlhf-02,openrlhf-posttraining,2,"OpenRLHF README (architecture + quickstart)",https://github.com/OpenRLHF/OpenRLHF#readme,"scaling,serving-integration"
-orlhf-03,openrlhf-posttraining,3,"OpenRLHF issues/discussions",https://github.com/OpenRLHF/OpenRLHF/issues,"ops,community"
-orlhf-04,openrlhf-posttraining,4,"OpenRLHF releases",https://github.com/OpenRLHF/OpenRLHF/releases,"versioning,maintenance"
-
-lc-01,langchain-observability,1,"LangChain observability (docs landing)",https://docs.langchain.com/oss/python/langchain/observability,"observability,tracing"
-lc-02,langchain-observability,2,"LangChain observability: tracing setup",https://docs.langchain.com/oss/python/langchain/observability#tracing,"tracing,setup"
-lc-03,langchain-observability,3,"LangChain observability: evaluation hooks",https://docs.langchain.com/oss/python/langchain/observability#evaluation,"evaluation,monitoring"
-lc-04,langchain-observability,4,"LangChain observability: debugging patterns",https://docs.langchain.com/oss/python/langchain/observability#debugging,"debugging,ops"
-
-li-01,llamaindex-observability,1,"LlamaIndex observability guide (landing)",https://developers.llamaindex.ai/python/framework/module_guides/observability/,"observability,tracing"
-li-02,llamaindex-observability,2,"LlamaIndex: OpenTelemetry integration",https://developers.llamaindex.ai/python/framework/module_guides/observability/#opentelemetry,"tracing,otel"
-li-03,llamaindex-observability,3,"LlamaIndex: Phoenix integration",https://developers.llamaindex.ai/python/framework/module_guides/observability/#phoenix-arize,"observability,phoenix"
-li-04,llamaindex-observability,4,"LlamaIndex: evaluation/monitoring integrations",https://developers.llamaindex.ai/python/framework/module_guides/observability/#evaluation,"evaluation,monitoring"
-
-llmopsbuild-01,llmops-build-docs,1,"Docs Home / Overview",https://llmops.build/docs,"lifecycle,overview"
-llmopsbuild-02,llmops-build-docs,2,"Quickstart",https://llmops.build/docs/quickstart,"quickstart,implementation"
-llmopsbuild-03,llmops-build-docs,3,"Standalone Usage",https://llmops.build/docs/standalone,"deployment,usage"
-llmopsbuild-04,llmops-build-docs,4,"Configuration",https://llmops.build/docs/configuration,"configuration"
-llmopsbuild-05,llmops-build-docs,5,"Providers",https://llmops.build/docs/providers,"providers"
-llmopsbuild-06,llmops-build-docs,6,"Changelog",https://llmops.build/docs/changelog,"versioning"
-
-langgraph-01,langgraph-academy-intro,1,"Course Page (Academy)",https://academy.langchain.com/courses/intro-to-langgraph,"agents,orchestration"
-langgraph-02,langgraph-academy-intro,2,"Companion Repo: Module 0 (Setup)",https://github.com/langchain-ai/langchain-academy/tree/main/module-0,"setup"
-langgraph-03,langgraph-academy-intro,3,"Companion Repo: Module 1 (LangGraph Basics)",https://github.com/langchain-ai/langchain-academy/tree/main/module-1,"agents,graphs"
-langgraph-04,langgraph-academy-intro,4,"Companion Repo: Module 2 (Graph Patterns)",https://github.com/langchain-ai/langchain-academy/tree/main/module-2,"agents,patterns"
-langgraph-05,langgraph-academy-intro,5,"Companion Repo: Module 3 (Advanced Themes)",https://github.com/langchain-ai/langchain-academy/tree/main/module-3,"memory,tools"
-langgraph-06,langgraph-academy-intro,6,"Companion Repo: Module 4 (Advanced Themes)",https://github.com/langchain-ai/langchain-academy/tree/main/module-4,"advanced"
-langgraph-07,langgraph-academy-intro,7,"Companion Repo: Module 5 (Advanced Themes)",https://github.com/langchain-ai/langchain-academy/tree/main/module-5,"advanced"
-langgraph-08,langgraph-academy-intro,8,"Companion Repo: Module 6 (Deployment)",https://github.com/langchain-ai/langchain-academy/tree/main/module-6,"deployment"
-
-codex-01,openai-codex-docs,1,"Codex Overview",https://developers.openai.com/codex,"coding-agents,overview"
-codex-03,openai-codex-docs,2,"Codex CLI",https://developers.openai.com/codex/cli,"cli,automation"
-codex-05,openai-codex-docs,3,"Config Basics",https://developers.openai.com/codex/config-basic,"configuration"
-codex-06,openai-codex-docs,4,"Codex SDK",https://developers.openai.com/codex/sdk,"sdk,automation"
-codex-07,openai-codex-docs,5,"Codex App Server",https://developers.openai.com/codex/app-server,"deployment,integration"
-
-langfuse-01,langfuse-course,1,"Watch Demo",https://langfuse.com/watch-demo,"observability,overview"
-langfuse-02,langfuse-course,2,"Docs Home",https://langfuse.com/docs,"docs"
-langfuse-03,langfuse-course,3,"Observability Overview",https://langfuse.com/docs/observability/overview,"observability,tracing"
-langfuse-04,langfuse-course,4,"Prompt Management Overview",https://langfuse.com/docs/prompt-management/overview,"prompt-management"
-langfuse-05,langfuse-course,5,"Evaluation Overview",https://langfuse.com/docs/evaluation/overview,"evaluation,monitoring"
-
-wandb-01,wandb-courses,1,"Courses Catalog",https://wandb.ai/site/courses/,"overview"
-wandb-02,wandb-courses,2,"AI Agents Course",https://wandb.ai/site/courses/agents/,"agents"
-wandb-03,wandb-courses,3,"LLM Apps Evaluation Course",https://wandb.ai/site/courses/evals/,"evaluation"
-wandb-04,wandb-courses,4,"RAG++ Course",https://wandb.ai/site/courses/rag/,"rag"
-wandb-05,wandb-courses,5,"Model CI/CD Course",https://wandb.ai/site/courses/model-ci-cd/,"ci-cd"
-
-braintrust-01,braintrust-evaluation,1,"Evaluation Docs (Entry)",https://www.braintrust.dev/docs/evaluation,"evaluation,overview"
-braintrust-02,braintrust-evaluation,2,"Evaluate Systematically",https://www.braintrust.dev/docs/evaluate,"evaluation"
-braintrust-03,braintrust-evaluation,3,"Build Datasets",https://www.braintrust.dev/docs/annotate/datasets,"datasets"
-braintrust-05,braintrust-evaluation,4,"Write Scorers",https://www.braintrust.dev/docs/evaluate/write-scorers,"evaluation,scorers"
-braintrust-06,braintrust-evaluation,5,"Run Evaluations",https://www.braintrust.dev/docs/evaluate/run-evaluations,"evaluation,runs"
-braintrust-07,braintrust-evaluation,6,"Interpret Results",https://www.braintrust.dev/docs/evaluate/interpret-results,"experiments,analysis"
-
-phoenix-01,phoenix-observability,1,"Phoenix Landing Page",https://phoenix.arize.com/,"observability,overview"
-phoenix-02,phoenix-observability,2,"Phoenix Docs Overview",https://arize.com/docs/phoenix,"docs"
-phoenix-03,phoenix-observability,3,"Tracing Quickstart",https://arize.com/docs/phoenix/get-started/get-started-tracing,"tracing"
-phoenix-04,phoenix-observability,4,"Evaluations Quickstart",https://arize.com/docs/phoenix/get-started/get-started-evaluations,"evaluation"
-phoenix-06,phoenix-observability,5,"Integrations",https://arize.com/docs/phoenix/integrations,"integrations"
-phoenix-07,phoenix-observability,6,"Self-Hosting",https://arize.com/docs/phoenix/self-hosting,"deployment,self-hosting"
-
-helicone-01,helicone-quickstart,1,"Quick Start",https://docs.helicone.ai/getting-started/quick-start,"observability,quickstart"
-helicone-02,helicone-quickstart,2,"AI Gateway Overview",https://docs.helicone.ai/gateway/overview,"gateway"
-helicone-03,helicone-quickstart,3,"Provider Routing",https://docs.helicone.ai/gateway/provider-routing,"routing"
-helicone-04,helicone-quickstart,4,"Prompt Integration",https://docs.helicone.ai/gateway/prompt-integration,"prompt-management"
-helicone-05,helicone-quickstart,5,"Caching",https://docs.helicone.ai/features/advanced-usage/caching,"cost,latency"
-helicone-06,helicone-quickstart,6,"LLM Security",https://docs.helicone.ai/features/advanced-usage/llm-security,"security,governance"
-helicone-07,helicone-quickstart,7,"Cost Tracking",https://docs.helicone.ai/guides/cookbooks/cost-tracking,"cost"
-helicone-08,helicone-quickstart,8,"Eval Scores",https://docs.helicone.ai/features/advanced-usage/scores,"evaluation"
+lesson_id,course_id,lesson_num,Name,Web URL,topic_tags
+az-01,azure-llmops-workshop,1,Lab 01: Introduction to LLMs and Azure AI Services,https://microsoft.github.io/llmops-workshop/labs/lesson_01/lab01.html,"lifecycle,intro"
+az-02,azure-llmops-workshop,2,Lab 02: Building LLM Orchestration Flows,https://microsoft.github.io/llmops-workshop/labs/lesson_02/lab02.html,"orchestration,prompt-management"
+az-03,azure-llmops-workshop,3,Lab 03: Evaluating and Deploying LLMs,https://microsoft.github.io/llmops-workshop/labs/lesson_03/lab03.html,"evaluation,deployment"
+az-04,azure-llmops-workshop,4,Lab 04: Monitoring and Responsible AI,https://microsoft.github.io/llmops-workshop/labs/lesson_04/lab04.html,"monitoring,observability,content-safety"
+az-05,azure-llmops-workshop,5,Lab 05: Automating Everything (CI/CD),https://microsoft.github.io/llmops-workshop/labs/lesson_05/lab05.html,"automation,ci-cd"
+az-06,azure-llmops-workshop,6,Extra: Benchmarking Azure OpenAI Models,https://microsoft.github.io/llmops-workshop/labs/performance/docs/AOAI_BENCH_TOOL.html,"performance,evaluation"
+az-07,azure-llmops-workshop,7,Extra: Performance Evaluation / Load Testing,https://microsoft.github.io/llmops-workshop/labs/performance/docs/PERFTEST_CONCEPTS.html,"performance,load-testing"
+,,,,,
+gcp-01,gcp-llmops-overview,1,What is LLMOps (overview),https://cloud.google.com/discover/what-is-llmops,"lifecycle,definition"
+gcp-02,gcp-llmops-overview,2,Vertex AI Model Registry (lifecycle management),https://docs.cloud.google.com/vertex-ai/docs/model-registry/introduction,"model-registry,versioning"
+gcp-03,gcp-llmops-overview,3,Vertex AI Pipelines (automation),https://docs.cloud.google.com/vertex-ai/docs/pipelines/introduction,"pipelines,automation"
+gcp-04,gcp-llmops-overview,4,Vertex AI Model Evaluation (overview),https://docs.cloud.google.com/vertex-ai/docs/evaluation/introduction,evaluation
+gcp-05,gcp-llmops-overview,5,Vertex AI Model Monitoring (overview),https://docs.cloud.google.com/vertex-ai/docs/model-monitoring/overview,monitoring
+,,,,,
+awsw-00,aws-llmops-workshop,1,Lab 0: Register base model (notebook),https://github.com/aws-samples/llmops-workshop/blob/main/lab0-register-base-model.ipynb,"model-registry,lifecycle"
+awsw-01,aws-llmops-workshop,2,Lab 1: Finetune Llama2 with QLoRA (notebook),https://github.com/aws-samples/llmops-workshop/blob/main/lab1-sagemaker-finetune-llama2-qlora.ipynb,"post-training,qlora,peft"
+awsw-02,aws-llmops-workshop,3,Lab 2: Build SageMaker pipeline for LLM (notebook),https://github.com/aws-samples/llmops-workshop/blob/main/lab2-sagemaker-pipeline-llm.ipynb,"pipelines,automation"
+awsw-03,aws-llmops-workshop,4,Lab 3: Foundation model monitoring (folder),https://github.com/aws-samples/llmops-workshop/tree/main/lab3-sagemaker-fm-monitoring,"monitoring,observability"
+awsw-04,aws-llmops-workshop,5,Lab 4: JumpStart embeddings (notebook),https://github.com/aws-samples/llmops-workshop/blob/main/lab4-sagemaker-jumpstart-embeddings.ipynb,"embeddings,retrieval"
+awsw-05,aws-llmops-workshop,6,Lab 5: Knowledge base chatbot (notebook),https://github.com/aws-samples/llmops-workshop/blob/main/lab5-knowledge-base-chatbot.ipynb,"rag,app-integration"
+,,,,,
+awsb-01,aws-llmops-blog-series,1,LLMOps solution overview (Part I),https://aws.amazon.com/blogs/gametech/operationalize-generative-ai-applications-on-aws-part-i-overview-of-llmops-solution/,"architecture,lifecycle"
+awsb-02,aws-llmops-blog-series,2,SageMaker Clarify: Get started with model evaluations,https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-foundation-model-evaluate-get-started.html,evaluation
+awsb-03,aws-llmops-blog-series,3,SageMaker Model Monitor (examples index),https://sagemaker-examples.readthedocs.io/en/latest/sagemaker_model_monitor/index.html,monitoring
+awsb-04,aws-llmops-blog-series,4,SageMaker Clarify + fmeval (re:Post article),https://repost.aws/articles/ARXsxgLFa7R-uw8TgUo1fDJg/accelerate-foundation-model-evaluation-with-amazon-sagemaker-clarify-and-fmeval,"evaluation,tooling"
+,,,,,
+db-01,databricks-llmops,1,Databricks LLMOps overview,https://www.databricks.com/glossary/llmops,"definition,lifecycle"
+db-02,databricks-llmops,2,Evaluate and monitor AI agents (MLflow for GenAI),https://docs.databricks.com/aws/en/mlflow3/genai/eval-monitor/,"evaluation,monitoring,agents"
+db-03,databricks-llmops,3,Implement LLMOps with Azure Databricks (lab),https://microsoftlearning.github.io/mslearn-databricks/Instructions/Exercises/AI-07-LLMOps.html,"deployment,tracking,governance"
+db-04,databricks-llmops,4,Microsoft Learn module: Implement LLMOps with Azure Databricks,https://learn.microsoft.com/en-us/training/modules/implement-llmops-azure-databricks/,"lifecycle,deployment"
+,,,,,
+ibm-01,ibm-llmops,1,IBM: What are Large Language Model Operations (LLMOps)?,https://www.ibm.com/think/topics/llmops,"definition,lifecycle"
+ibm-02,ibm-llmops,2,IBM watsonx guide (LLMOps framing),https://ibm.github.io/MLOps/watsonx/watsonx/watsonx.pdf,"governance,lifecycle"
+ibm-03,ibm-llmops,3,IBM community: Build an agentic LLMOps stack with watsonx,https://community.ibm.com/community/user/blogs/patrick-meyer/2025/09/18/build-an-agentic-llmops-stack-with-ibm-watsonx,"agents,orchestration,governance"
+ibm-04,ibm-llmops,4,IBM MLOps guide (governance/risk),https://ibm.github.io/MLOps/pdf/mlops-guide.pdf,"governance,risk"
+,,,,,
+oci-01,oracle-llmops,1,Oracle LLMOps overview,https://www.oracle.com/artificial-intelligence/llmops/,"definition,monitoring"
+oci-02,oracle-llmops,2,Deploy LLM on OCI Data Science using BYOC (vLLM),https://github.com/oracle-samples/oci-data-science-ai-samples/blob/main/LLM/deploy-llm-byoc.md,"deployment,serving,open-models"
+oci-03,oracle-llmops,3,OCI Observability & Monitoring platform (PDF guide),https://www.oracle.com/a/otn/docs/oracle_distributed_cloud_systems_oci_observability_and_management_v.0.2.pdf,"observability,monitoring"
+oci-04,oracle-llmops,4,Monitoring OCI DevOps performance (Observability & Mgmt),https://www.ateam-oracle.com/monitor-oci-devops-performance-observability-and-management,"ci-cd,monitoring"
+,,,,,
+hf-01,hf-open-llmops-primitives,1,TRL docs index,https://huggingface.co/docs/trl/index,"post-training,rlhf,dpo"
+hf-02,hf-open-llmops-primitives,2,PEFT docs index,https://huggingface.co/docs/peft/index,"peft,lora"
+hf-03,hf-open-llmops-primitives,3,Accelerate docs index,https://huggingface.co/docs/accelerate/index,distributed-training
+hf-04,hf-open-llmops-primitives,4,Transformers pipeline tutorial,https://github.com/huggingface/transformers/blob/main/docs/source/en/pipeline_tutorial.md,"inference,ecosystem-primitives"
+,,,,,
+el-01,eleutherai-eval,1,lm-evaluation-harness repo (core),https://github.com/EleutherAI/lm-evaluation-harness,"evaluation,reproducibility"
+el-02,eleutherai-eval,2,lm-evaluation-harness docs folder,https://github.com/EleutherAI/lm-evaluation-harness/tree/main/docs,"tasks,prompt-templates"
+el-03,eleutherai-eval,3,lm-evaluation-harness models/backends,https://github.com/EleutherAI/lm-evaluation-harness/tree/main/lm_eval/models,"backends,serving-integration"
+el-04,eleutherai-eval,4,lm-evaluation-harness usage,https://github.com/EleutherAI/lm-evaluation-harness#usage,"tooling,workflows"
+,,,,,
+vllm-01,vllm-serving,1,vLLM docs (landing),https://docs.vllm.ai/,"serving,inference"
+vllm-02,vllm-serving,2,OpenAI-compatible server,https://docs.vllm.ai/en/v0.13.0/serving/openai_compatible_server/,"openai-compatible-api,serving"
+vllm-03,vllm-serving,3,vLLM GitHub repository,https://github.com/vllm-project/vllm,"implementation,deploy"
+vllm-04,vllm-serving,4,vLLM serving guides index,https://docs.vllm.ai/en/latest/serving/,"deployment,ops"
+,,,,,
+mlf-01,mlflow-genai,1,MLflow: Evaluate prompts (Prompt Registry),https://mlflow.org/docs/latest/genai/prompt-registry/evaluate-prompts/,"prompt-management,evaluation"
+mlf-02,mlflow-genai,2,Databricks: Evaluate & monitor AI agents,https://docs.databricks.com/aws/en/mlflow3/genai/eval-monitor/,"evaluation,monitoring"
+mlf-03,mlflow-genai,3,Azure Databricks: Evaluate & monitor AI agents,https://learn.microsoft.com/en-us/azure/databricks/mlflow3/genai/eval-monitor/,"evaluation,monitoring"
+mlf-04,mlflow-genai,4,Databricks LLMOps glossary (context),https://www.databricks.com/glossary/llmops,"lifecycle,tracking"
+,,,,,
+orlhf-01,openrlhf-posttraining,1,OpenRLHF repository (overview),https://github.com/OpenRLHF/OpenRLHF,"rlhf,post-training"
+orlhf-02,openrlhf-posttraining,2,OpenRLHF README (architecture + quickstart),https://github.com/OpenRLHF/OpenRLHF#readme,"scaling,serving-integration"
+orlhf-03,openrlhf-posttraining,3,OpenRLHF issues/discussions,https://github.com/OpenRLHF/OpenRLHF/issues,"ops,community"
+orlhf-04,openrlhf-posttraining,4,OpenRLHF releases,https://github.com/OpenRLHF/OpenRLHF/releases,"versioning,maintenance"
+,,,,,
+lc-01,langchain-observability,1,LangChain observability (docs landing),https://docs.langchain.com/oss/python/langchain/observability,"observability,tracing"
+lc-02,langchain-observability,2,LangChain observability: tracing setup,https://docs.langchain.com/oss/python/langchain/observability#tracing,"tracing,setup"
+lc-03,langchain-observability,3,LangChain observability: evaluation hooks,https://docs.langchain.com/oss/python/langchain/observability#evaluation,"evaluation,monitoring"
+lc-04,langchain-observability,4,LangChain observability: debugging patterns,https://docs.langchain.com/oss/python/langchain/observability#debugging,"debugging,ops"
+,,,,,
+li-01,llamaindex-observability,1,LlamaIndex observability guide (landing),https://developers.llamaindex.ai/python/framework/module_guides/observability/,"observability,tracing"
+li-02,llamaindex-observability,2,LlamaIndex: OpenTelemetry integration,https://developers.llamaindex.ai/python/framework/module_guides/observability/#opentelemetry,"tracing,otel"
+li-03,llamaindex-observability,3,LlamaIndex: Phoenix integration,https://developers.llamaindex.ai/python/framework/module_guides/observability/#phoenix-arize,"observability,phoenix"
+li-04,llamaindex-observability,4,LlamaIndex: evaluation/monitoring integrations,https://developers.llamaindex.ai/python/framework/module_guides/observability/#evaluation,"evaluation,monitoring"
+,,,,,
+llmopsbuild-01,llmops-build-docs,1,Docs Home / Overview,https://llmops.build/docs,"lifecycle,overview"
+llmopsbuild-02,llmops-build-docs,2,Quickstart,https://llmops.build/docs/quickstart,"quickstart,implementation"
+llmopsbuild-03,llmops-build-docs,3,Standalone Usage,https://llmops.build/docs/standalone,"deployment,usage"
+llmopsbuild-04,llmops-build-docs,4,Configuration,https://llmops.build/docs/configuration,configuration
+llmopsbuild-05,llmops-build-docs,5,Providers,https://llmops.build/docs/providers,providers
+llmopsbuild-06,llmops-build-docs,6,Changelog,https://llmops.build/docs/changelog,versioning
+,,,,,
+langgraph-01,langgraph-academy-intro,1,Course Page (Academy),https://academy.langchain.com/courses/intro-to-langgraph,"agents,orchestration"
+langgraph-02,langgraph-academy-intro,2,Companion Repo: Module 0 (Setup),https://github.com/langchain-ai/langchain-academy/tree/main/module-0,setup
+langgraph-03,langgraph-academy-intro,3,Companion Repo: Module 1 (LangGraph Basics),https://github.com/langchain-ai/langchain-academy/tree/main/module-1,"agents,graphs"
+langgraph-04,langgraph-academy-intro,4,Companion Repo: Module 2 (Graph Patterns),https://github.com/langchain-ai/langchain-academy/tree/main/module-2,"agents,patterns"
+langgraph-05,langgraph-academy-intro,5,Companion Repo: Module 3 (Advanced Themes),https://github.com/langchain-ai/langchain-academy/tree/main/module-3,"memory,tools"
+langgraph-06,langgraph-academy-intro,6,Companion Repo: Module 4 (Advanced Themes),https://github.com/langchain-ai/langchain-academy/tree/main/module-4,advanced
+langgraph-07,langgraph-academy-intro,7,Companion Repo: Module 5 (Advanced Themes),https://github.com/langchain-ai/langchain-academy/tree/main/module-5,advanced
+langgraph-08,langgraph-academy-intro,8,Companion Repo: Module 6 (Deployment),https://github.com/langchain-ai/langchain-academy/tree/main/module-6,deployment
+,,,,,
+codex-01,openai-codex-docs,1,Codex Overview,https://developers.openai.com/codex,"coding-agents,overview"
+codex-03,openai-codex-docs,2,Codex CLI,https://developers.openai.com/codex/cli,"cli,automation"
+codex-05,openai-codex-docs,3,Config Basics,https://developers.openai.com/codex/config-basic,configuration
+codex-06,openai-codex-docs,4,Codex SDK,https://developers.openai.com/codex/sdk,"sdk,automation"
+codex-07,openai-codex-docs,5,Codex App Server,https://developers.openai.com/codex/app-server,"deployment,integration"
+,,,,,
+langfuse-01,langfuse-course,1,Watch Demo,https://langfuse.com/watch-demo,"observability,overview"
+langfuse-02,langfuse-course,2,Docs Home,https://langfuse.com/docs,docs
+langfuse-03,langfuse-course,3,Observability Overview,https://langfuse.com/docs/observability/overview,"observability,tracing"
+langfuse-04,langfuse-course,4,Prompt Management Overview,https://langfuse.com/docs/prompt-management/overview,prompt-management
+langfuse-05,langfuse-course,5,Evaluation Overview,https://langfuse.com/docs/evaluation/overview,"evaluation,monitoring"
+,,,,,
+wandb-01,wandb-courses,1,Courses Catalog,https://wandb.ai/site/courses/,overview
+wandb-02,wandb-courses,2,AI Agents Course,https://wandb.ai/site/courses/agents/,agents
+wandb-03,wandb-courses,3,LLM Apps Evaluation Course,https://wandb.ai/site/courses/evals/,evaluation
+wandb-04,wandb-courses,4,RAG++ Course,https://wandb.ai/site/courses/rag/,rag
+wandb-05,wandb-courses,5,Model CI/CD Course,https://wandb.ai/site/courses/model-ci-cd/,ci-cd
+,,,,,
+braintrust-01,braintrust-evaluation,1,Evaluation Docs (Entry),https://www.braintrust.dev/docs/evaluation,"evaluation,overview"
+braintrust-02,braintrust-evaluation,2,Evaluate Systematically,https://www.braintrust.dev/docs/evaluate,evaluation
+braintrust-03,braintrust-evaluation,3,Build Datasets,https://www.braintrust.dev/docs/annotate/datasets,datasets
+braintrust-05,braintrust-evaluation,4,Write Scorers,https://www.braintrust.dev/docs/evaluate/write-scorers,"evaluation,scorers"
+braintrust-06,braintrust-evaluation,5,Run Evaluations,https://www.braintrust.dev/docs/evaluate/run-evaluations,"evaluation,runs"
+braintrust-07,braintrust-evaluation,6,Interpret Results,https://www.braintrust.dev/docs/evaluate/interpret-results,"experiments,analysis"
+,,,,,
+phoenix-01,phoenix-observability,1,Phoenix Landing Page,https://phoenix.arize.com/,"observability,overview"
+phoenix-02,phoenix-observability,2,Phoenix Docs Overview,https://arize.com/docs/phoenix,docs
+phoenix-03,phoenix-observability,3,Tracing Quickstart,https://arize.com/docs/phoenix/get-started/get-started-tracing,tracing
+phoenix-04,phoenix-observability,4,Evaluations Quickstart,https://arize.com/docs/phoenix/get-started/get-started-evaluations,evaluation
+phoenix-06,phoenix-observability,5,Integrations,https://arize.com/docs/phoenix/integrations,integrations
+phoenix-07,phoenix-observability,6,Self-Hosting,https://arize.com/docs/phoenix/self-hosting,"deployment,self-hosting"
+,,,,,
+helicone-01,helicone-quickstart,1,Quick Start,https://docs.helicone.ai/getting-started/quick-start,"observability,quickstart"
+helicone-02,helicone-quickstart,2,AI Gateway Overview,https://docs.helicone.ai/gateway/overview,gateway
+helicone-03,helicone-quickstart,3,Provider Routing,https://docs.helicone.ai/gateway/provider-routing,routing
+helicone-04,helicone-quickstart,4,Prompt Integration,https://docs.helicone.ai/gateway/prompt-integration,prompt-management
+helicone-05,helicone-quickstart,5,Caching,https://docs.helicone.ai/features/advanced-usage/caching,"cost,latency"
+helicone-06,helicone-quickstart,6,LLM Security,https://docs.helicone.ai/features/advanced-usage/llm-security,"security,governance"
+helicone-07,helicone-quickstart,7,Cost Tracking,https://docs.helicone.ai/guides/cookbooks/cost-tracking,cost
+helicone-08,helicone-quickstart,8,Eval Scores,https://docs.helicone.ai/features/advanced-usage/scores,evaluation
