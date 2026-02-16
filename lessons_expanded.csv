@@ -53,7 +53,7 @@ el-04,eleutherai-eval,4,lm-evaluation-harness usage,https://github.com/EleutherA
 vllm-01,vllm-serving,1,vLLM docs (landing),https://docs.vllm.ai/,"serving,inference"
 vllm-02,vllm-serving,2,OpenAI-compatible server,https://docs.vllm.ai/en/v0.13.0/serving/openai_compatible_server/,"openai-compatible-api,serving"
 vllm-03,vllm-serving,3,vLLM GitHub repository,https://github.com/vllm-project/vllm,"implementation,deploy"
-vllm-04,vllm-serving,4,vLLM serving guides index,https://docs.vllm.ai/en/latest/serving/,"deployment,ops"
+vllm-04,vllm-serving,4,vLLM serving guides index,https://docs.vllm.ai/en/latest/serving/offline_inference/,"deployment,ops"
 ,,,,,
 mlf-01,mlflow-genai,1,MLflow: Evaluate prompts (Prompt Registry),https://mlflow.org/docs/latest/genai/prompt-registry/evaluate-prompts/,"prompt-management,evaluation"
 mlf-02,mlflow-genai,2,Databricks: Evaluate & monitor AI agents,https://docs.databricks.com/aws/en/mlflow3/genai/eval-monitor/,"evaluation,monitoring"
