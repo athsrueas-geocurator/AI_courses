@@ -1,0 +1,8 @@
+Role,Description,Description status
+Governance lead,"Sets policy and control requirements so LLM systems meet legal, safety, and internal standards.",draft
+Platform engineer,"Owns deployment infrastructure and runtime performance for secure, scalable model serving.",draft
+LLM application engineer,"Implements prompts, retrieval, and orchestration logic that powers user-facing LLM features.",draft
+Technical product manager,"Defines outcomes, prioritizes scope, and aligns technical work with user and business needs.",draft
+Evaluation engineer,Designs test suites and quality metrics to measure model reliability before and after release.,draft
+ML engineer,"Designs, trains, and adapts models while balancing quality, latency, and operational constraints in production.",draft
+MLOps engineer,"Builds monitoring, observability, and incident workflows that keep LLM systems healthy in production.",draft
