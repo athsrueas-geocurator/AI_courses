@@ -1,0 +1,183 @@
+Skill,Description,Description status
+Azure AI Studio navigation,"Defines and sequences the major phases needed to build, ship, and maintain an LLM application.",draft
+Azure OpenAI model deployment,Deploys and configures managed AI services so teams can test and iterate quickly.,draft
+Open-source LLM deployment (Azure),"Provisions and tunes model endpoints for stable, scalable online inference.",draft
+Prompt Playground experimentation,Uses interactive tools to prototype prompts and compare behavior across model settings.,draft
+Content Safety configuration,Implements safeguards that detect or block unsafe model inputs and outputs.,draft
+Prompt Flow creation,Uses prompt flow creation to shape model behavior and improve response quality for specific tasks.,draft
+Prompt Flow orchestration,"Builds prompt flow orchestration to connect steps into repeatable, automated LLMOps processes.",draft
+Classification flow build (Prompt Flow),Uses classification flow build (prompt flow) to shape model behavior and improve response quality for specific tasks.,draft
+RAG flow build (Prompt Flow + Azure AI Search),Implements rag flow build (prompt flow + azure ai search) to ground model responses in external data and improve answer relevance.,draft
+Search index setup (Azure AI Search),Sets up search index setup (azure ai search) so the workflow can run reliably in local or production environments.,draft
+Flow runtime & connections (Azure OpenAI),"Applies flow runtime & connections (azure openai) as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+RAG flow evaluation (Prompt Flow),"Runs rag flow evaluation (prompt flow) to measure quality, compare alternatives, and guide release decisions.",draft
+Groundedness evaluation flow,"Runs groundedness evaluation flow to measure quality, compare alternatives, and guide release decisions.",draft
+Evaluation dataset preparation,"Runs evaluation dataset preparation to measure quality, compare alternatives, and guide release decisions.",draft
+Managed endpoint deployment,"Executes managed endpoint deployment to deliver models and features as stable, scalable services.",draft
+Post-deploy validation,"Runs post-deploy validation to measure quality, compare alternatives, and guide release decisions.",draft
+LLM monitoring enablement,"Implements llm monitoring enablement to track system health, detect issues early, and support ongoing operations.",draft
+Monitoring metrics preparation,"Implements monitoring metrics preparation to track system health, detect issues early, and support ongoing operations.",draft
+Content Safety tool integration,"Applies content safety tool integration to keep LLM systems aligned with policy, safety requirements, and audit needs.",draft
+Conditional safety routing (Prompt Flow),"Applies conditional safety routing (prompt flow) to keep LLM systems aligned with policy, safety requirements, and audit needs.",draft
+Operational debugging,Uses operational debugging to diagnose failures quickly and improve reliability across iterations.,draft
+GitHub Actions CI/CD setup,Sets up github actions ci/cd setup so the workflow can run reliably in local or production environments.,draft
+Automated PR evaluation pipeline,"Runs automated pr evaluation pipeline to measure quality, compare alternatives, and guide release decisions.",draft
+Golden dataset evaluation gate,"Runs golden dataset evaluation gate to measure quality, compare alternatives, and guide release decisions.",draft
+CI build + CD deploy (Prompt Flow),Uses ci build + cd deploy (prompt flow) to shape model behavior and improve response quality for specific tasks.,draft
+Release workflow (branching/versioning),"Builds release workflow (branching/versioning) to connect steps into repeatable, automated LLMOps processes.",draft
+Model benchmarking,"Runs model benchmarking to measure quality, compare alternatives, and guide release decisions.",draft
+Quality/cost tradeoff analysis,"Applies quality/cost tradeoff analysis as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+Model selection workflow,"Builds model selection workflow to connect steps into repeatable, automated LLMOps processes.",draft
+Load testing,"Applies load testing as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+Latency/throughput measurement,"Applies latency/throughput measurement as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+Scaling analysis,"Applies scaling analysis as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+LLMOps lifecycle mapping,"Applies llmops lifecycle mapping as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+LLMOps best-practice framing,"Applies llmops best-practice framing as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+Vertex AI Model Registry usage,"Manages vertex ai model registry usage so teams can trace changes, reproduce results, and control releases.",draft
+Model versioning & lineage,"Manages model versioning & lineage so teams can trace changes, reproduce results, and control releases.",draft
+Model lifecycle promotion,"Applies model lifecycle promotion as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+Vertex AI Pipelines orchestration,"Builds vertex ai pipelines orchestration to connect steps into repeatable, automated LLMOps processes.",draft
+Pipeline automation,"Builds pipeline automation to connect steps into repeatable, automated LLMOps processes.",draft
+Pipeline parameterization,"Builds pipeline parameterization to connect steps into repeatable, automated LLMOps processes.",draft
+Vertex AI model evaluation,"Runs vertex ai model evaluation to measure quality, compare alternatives, and guide release decisions.",draft
+Metric selection,"Runs metric selection to measure quality, compare alternatives, and guide release decisions.",draft
+Model comparison,"Applies model comparison as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+Vertex AI model monitoring,"Implements vertex ai model monitoring to track system health, detect issues early, and support ongoing operations.",draft
+Drift detection,"Applies drift detection as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+Alerting configuration,"Implements alerting configuration to track system health, detect issues early, and support ongoing operations.",draft
+SageMaker Model Registry registration,"Manages sagemaker model registry registration so teams can trace changes, reproduce results, and control releases.",draft
+Model package governance,"Applies model package governance to keep LLM systems aligned with policy, safety requirements, and audit needs.",draft
+Lifecycle state management,"Applies lifecycle state management as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+SageMaker fine-tuning job,Performs sagemaker fine-tuning job to adapt base models for domain-specific performance and constraints.,draft
+QLoRA fine-tuning,Performs qlora fine-tuning to adapt base models for domain-specific performance and constraints.,draft
+Model deployment (SageMaker Hosting),"Executes model deployment (sagemaker hosting) to deliver models and features as stable, scalable services.",draft
+SageMaker Pipelines workflow,"Builds sagemaker pipelines workflow to connect steps into repeatable, automated LLMOps processes.",draft
+Training pipeline automation,"Builds training pipeline automation to connect steps into repeatable, automated LLMOps processes.",draft
+CI/CD integration (CodePipeline),"Builds ci/cd integration (codepipeline) to connect steps into repeatable, automated LLMOps processes.",draft
+SageMaker Model Monitor configuration,"Implements sagemaker model monitor configuration to track system health, detect issues early, and support ongoing operations.",draft
+Monitoring schedule setup,Sets up monitoring schedule setup so the workflow can run reliably in local or production environments.,draft
+BYOC monitoring,"Implements byoc monitoring to track system health, detect issues early, and support ongoing operations.",draft
+JumpStart embeddings deployment,"Executes jumpstart embeddings deployment to deliver models and features as stable, scalable services.",draft
+Embedding generation,Implements embedding generation to ground model responses in external data and improve answer relevance.,draft
+Vector store setup (OpenSearch),Sets up vector store setup (opensearch) so the workflow can run reliably in local or production environments.,draft
+Document ingestion for RAG,Implements document ingestion for rag to ground model responses in external data and improve answer relevance.,draft
+LangChain RAG application,Implements langchain rag application to ground model responses in external data and improve answer relevance.,draft
+Vector DB querying (OpenSearch),Implements vector db querying (opensearch) to ground model responses in external data and improve answer relevance.,draft
+Streamlit chatbot UI,"Applies streamlit chatbot ui as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+LLMOps reference architecture review,"Applies llmops reference architecture review as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+Service-to-lifecycle mapping,"Applies service-to-lifecycle mapping as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+Foundation model evaluation (Clarify),"Runs foundation model evaluation (clarify) to measure quality, compare alternatives, and guide release decisions.",draft
+Automatic vs human eval workflows,"Builds automatic vs human eval workflows to connect steps into repeatable, automated LLMOps processes.",draft
+fmeval-based evaluation,"Runs fmeval-based evaluation to measure quality, compare alternatives, and guide release decisions.",draft
+Model Monitor setup,Sets up model monitor setup so the workflow can run reliably in local or production environments.,draft
+LLM monitoring (BYOC),"Implements llm monitoring (byoc) to track system health, detect issues early, and support ongoing operations.",draft
+Monitoring schedule operations,"Implements monitoring schedule operations to track system health, detect issues early, and support ongoing operations.",draft
+Clarify + fmeval evaluation workflow,"Runs clarify + fmeval evaluation workflow to measure quality, compare alternatives, and guide release decisions.",draft
+Evaluation reporting,"Runs evaluation reporting to measure quality, compare alternatives, and guide release decisions.",draft
+LLMOps lifecycle framing (Databricks),"Applies llmops lifecycle framing (databricks) as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+Agent evaluation (MLflow),"Runs agent evaluation (mlflow) to measure quality, compare alternatives, and guide release decisions.",draft
+Agent monitoring,"Implements agent monitoring to track system health, detect issues early, and support ongoing operations.",draft
+Trace logging,"Applies trace logging as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+LLMOps implementation (Azure Databricks),"Applies llmops implementation (azure databricks) as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+Experiment/prompt tracking (MLflow),"Manages experiment/prompt tracking (mlflow) so teams can trace changes, reproduce results, and control releases.",draft
+GenAI app deployment,"Executes genai app deployment to deliver models and features as stable, scalable services.",draft
+Governance controls,"Applies governance controls to keep LLM systems aligned with policy, safety requirements, and audit needs.",draft
+LLMOps implementation patterns (Azure Databricks),"Applies llmops implementation patterns (azure databricks) as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+Operational lifecycle setup,Sets up operational lifecycle setup so the workflow can run reliably in local or production environments.,draft
+LLMOps definition & lifecycle framing,"Applies llmops definition & lifecycle framing as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+LLMOps vs MLOps comparison,"Applies llmops vs mlops comparison as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+watsonx LLMOps workflow framing,"Builds watsonx llmops workflow framing to connect steps into repeatable, automated LLMOps processes.",draft
+Enterprise governance planning,"Applies enterprise governance planning to keep LLM systems aligned with policy, safety requirements, and audit needs.",draft
+Agentic workflow design,"Builds agentic workflow design to connect steps into repeatable, automated LLMOps processes.",draft
+Agent/tool orchestration,"Builds agent/tool orchestration to connect steps into repeatable, automated LLMOps processes.",draft
+Governance for agentic systems,"Applies governance for agentic systems to keep LLM systems aligned with policy, safety requirements, and audit needs.",draft
+AI governance & risk controls,"Applies ai governance & risk controls to keep LLM systems aligned with policy, safety requirements, and audit needs.",draft
+Compliance/audit processes,"Applies compliance/audit processes to keep LLM systems aligned with policy, safety requirements, and audit needs.",draft
+LLMOps overview (Oracle),"Applies llmops overview (oracle) as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+OCI service mapping for LLMOps,"Applies oci service mapping for llmops as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+BYOC serving deployment (OCI Data Science),"Executes byoc serving deployment (oci data science) to deliver models and features as stable, scalable services.",draft
+Containerized LLM serving (vLLM),"Executes containerized llm serving (vllm) to deliver models and features as stable, scalable services.",draft
+Observability dashboarding,"Implements observability dashboarding to track system health, detect issues early, and support ongoing operations.",draft
+Logs/metrics/traces analysis,"Runs logs/metrics/traces analysis to measure quality, compare alternatives, and guide release decisions.",draft
+CI/CD observability,"Implements ci/cd observability to track system health, detect issues early, and support ongoing operations.",draft
+DevOps pipeline performance monitoring,"Implements devops pipeline performance monitoring to track system health, detect issues early, and support ongoing operations.",draft
+RLHF training (TRL),Performs rlhf training (trl) to adapt base models for domain-specific performance and constraints.,draft
+DPO preference optimization,Performs dpo preference optimization to adapt base models for domain-specific performance and constraints.,draft
+Transformers + TRL integration,"Applies transformers + trl integration as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+PEFT fine-tuning,Performs peft fine-tuning to adapt base models for domain-specific performance and constraints.,draft
+LoRA adapter training,Performs lora adapter training to adapt base models for domain-specific performance and constraints.,draft
+Adapter merge/export,"Applies adapter merge/export as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+Distributed training (Accelerate),Performs distributed training (accelerate) to adapt base models for domain-specific performance and constraints.,draft
+Multi-GPU launch,"Applies multi-gpu launch as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+Mixed-precision tuning,"Applies mixed-precision tuning as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+Transformers pipelines inference,"Builds transformers pipelines inference to connect steps into repeatable, automated LLMOps processes.",draft
+Task selection (pipeline API),"Builds task selection (pipeline api) to connect steps into repeatable, automated LLMOps processes.",draft
+Device placement (CPU/GPU),"Applies device placement (cpu/gpu) as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+Benchmark execution (lm-eval-harness),"Runs benchmark execution (lm-eval-harness) to measure quality, compare alternatives, and guide release decisions.",draft
+Reproducible evaluation runs,"Runs reproducible evaluation runs to measure quality, compare alternatives, and guide release decisions.",draft
+Task configuration,"Applies task configuration as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+Prompt template authoring,Uses prompt template authoring to shape model behavior and improve response quality for specific tasks.,draft
+Custom metric configuration,"Runs custom metric configuration to measure quality, compare alternatives, and guide release decisions.",draft
+Model backend configuration,"Applies model backend configuration as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+Serving backend integration for evals,"Executes serving backend integration for evals to deliver models and features as stable, scalable services.",draft
+CLI-driven evaluation workflow,"Runs cli-driven evaluation workflow to measure quality, compare alternatives, and guide release decisions.",draft
+Batching/performance tuning for evals,"Applies batching/performance tuning for evals as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+vLLM installation & setup,Sets up vllm installation & setup so the workflow can run reliably in local or production environments.,draft
+Efficient inference serving,"Executes efficient inference serving to deliver models and features as stable, scalable services.",draft
+OpenAI-compatible server (vLLM),"Applies openai-compatible server (vllm) as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+API endpoint configuration,"Executes api endpoint configuration to deliver models and features as stable, scalable services.",draft
+Source build & dependency management,"Applies source build & dependency management as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+Upstream contribution workflow,"Builds upstream contribution workflow to connect steps into repeatable, automated LLMOps processes.",draft
+Production deployment patterns (vLLM),"Executes production deployment patterns (vllm) to deliver models and features as stable, scalable services.",draft
+Operational serving configuration,"Executes operational serving configuration to deliver models and features as stable, scalable services.",draft
+LLM tracing concepts,"Implements llm tracing concepts to track system health, detect issues early, and support ongoing operations.",draft
+Trace analysis for debugging,Uses trace analysis for debugging to diagnose failures quickly and improve reliability across iterations.,draft
+Tracing instrumentation,"Implements tracing instrumentation to track system health, detect issues early, and support ongoing operations.",draft
+Trace export to Phoenix,"Applies trace export to phoenix as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+Tracing tutorial workflow,"Implements tracing tutorial workflow to track system health, detect issues early, and support ongoing operations.",draft
+End-to-end run debugging,Uses end-to-end run debugging to diagnose failures quickly and improve reliability across iterations.,draft
+Observability + eval workflow navigation,"Implements observability + eval workflow navigation to track system health, detect issues early, and support ongoing operations.",draft
+Dataset/eval operations,"Applies dataset/eval operations as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+Prompt Registry usage,"Manages prompt registry usage so teams can trace changes, reproduce results, and control releases.",draft
+Prompt versioning,"Manages prompt versioning so teams can trace changes, reproduce results, and control releases.",draft
+Prompt evaluation,"Runs prompt evaluation to measure quality, compare alternatives, and guide release decisions.",draft
+Agent evaluation (Azure Databricks),"Runs agent evaluation (azure databricks) to measure quality, compare alternatives, and guide release decisions.",draft
+MLflow tracking,"Manages mlflow tracking so teams can trace changes, reproduce results, and control releases.",draft
+LLMOps tracking concepts,"Manages llmops tracking concepts so teams can trace changes, reproduce results, and control releases.",draft
+Lifecycle framing (Databricks),"Applies lifecycle framing (databricks) as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+RLHF stack setup (OpenRLHF),Sets up rlhf stack setup (openrlhf) so the workflow can run reliably in local or production environments.,draft
+Post-training workflow overview,"Builds post-training workflow overview to connect steps into repeatable, automated LLMOps processes.",draft
+PPO/DPO workflow execution,"Builds ppo/dpo workflow execution to connect steps into repeatable, automated LLMOps processes.",draft
+Distributed RLHF training,Performs distributed rlhf training to adapt base models for domain-specific performance and constraints.,draft
+Serving integration in training loops,"Executes serving integration in training loops to deliver models and features as stable, scalable services.",draft
+Operational troubleshooting (RLHF),Uses operational troubleshooting (rlhf) to diagnose failures quickly and improve reliability across iterations.,draft
+Community practice review,"Applies community practice review as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+Release/version tracking,"Manages release/version tracking so teams can trace changes, reproduce results, and control releases.",draft
+Upgrade planning,"Applies upgrade planning as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+Tracing enablement (LangChain),"Implements tracing enablement (langchain) to track system health, detect issues early, and support ongoing operations.",draft
+Run inspection & debugging,Uses run inspection & debugging to diagnose failures quickly and improve reliability across iterations.,draft
+Tracing setup,Sets up tracing setup so the workflow can run reliably in local or production environments.,draft
+Callback instrumentation,"Applies callback instrumentation as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+Evaluation hooks,"Runs evaluation hooks to measure quality, compare alternatives, and guide release decisions.",draft
+Quality signal capture,"Applies quality signal capture as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+Debugging patterns,Uses debugging patterns to diagnose failures quickly and improve reliability across iterations.,draft
+Operational troubleshooting,Uses operational troubleshooting to diagnose failures quickly and improve reliability across iterations.,draft
+Observability enablement (LlamaIndex),"Implements observability enablement (llamaindex) to track system health, detect issues early, and support ongoing operations.",draft
+Telemetry inspection,Uses telemetry inspection to diagnose failures quickly and improve reliability across iterations.,draft
+OpenTelemetry integration,"Applies opentelemetry integration as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+Trace export configuration,"Applies trace export configuration as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+Phoenix integration,"Applies phoenix integration as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+RAG trace debugging,Uses rag trace debugging to diagnose failures quickly and improve reliability across iterations.,draft
+Evaluation/monitoring integrations,"Implements evaluation/monitoring integrations to track system health, detect issues early, and support ongoing operations.",draft
+RAG quality checks,Implements rag quality checks to ground model responses in external data and improve answer relevance.,draft
+Install tooling,Sets up install tooling so the workflow can run reliably in local or production environments.,draft
+verify environment,"Applies verify environment as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+Run onboarding wizard,"Applies run onboarding wizard as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+configure auth,"Applies configure auth as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+initialize gateway settings,"Applies initialize gateway settings as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+Install/manage daemon,"Applies install/manage daemon as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+start/stop service,"Applies start/stop service as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+Health checks,"Applies health checks as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+basic debugging via foreground logs,Uses basic debugging via foreground logs to diagnose failures quickly and improve reliability across iterations.,draft
+Open dashboard,"Applies open dashboard as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
+run CLI smoke test,"Applies run cli smoke test as a practical LLMOps capability for building, operating, and improving production AI systems.",draft
