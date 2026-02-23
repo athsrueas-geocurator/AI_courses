@@ -57,13 +57,13 @@ We will produce:
 Each Course/Lesson will be tagged with a shared topic vocabulary:
 
 * Lifecycle
-* Prompt management
-* Evaluation
-* Observability & tracing
-* Deployment & serving
-* Post-training (SFT / PEFT / RLHF / DPO)
-* Governance & risk
-* Cost & performance
+* Prompting
+* Benchmarks
+* Observability and tracing
+* Deployment and serving
+* Post training
+* Governance and risk
+* Cost and performance
 
 ---
 
