@@ -1,0 +1,49 @@
+Topic,Description,Description status,Geo topic id
+Efficient Ml,Efficient Ml in artificial intelligence research and applications.,existing,0dcde9b719194c1f97298e7a8e2301db
+Benchmarks,Benchmarks in artificial intelligence research and applications.,existing,188f296f96904b919209e13a99c771bb
+Training,Training in artificial intelligence research and applications.,existing,1c3464545d1b4832aa6b4f5f6a93aa1a
+Transformers,Transformers in artificial intelligence research and applications.,existing,1cf2d9d6d12a4cfdba2481c486ac8f47
+Robustness,Robustness in artificial intelligence research and applications.,existing,1d327671b4a24bcbb55d34462307a8dc
+Memory,Memory in artificial intelligence research and applications.,existing,2ccc1731993c4c77a4ef07b722218cda
+Applications,Applications in artificial intelligence research and applications.,existing,3560df4df3f14672b6e9094a1210c61f
+Neural Networks,Neural Networks in artificial intelligence research and applications.,existing,39e996c09dac4a4490daa0738a1ea401
+Self Supervised,Self Supervised in artificial intelligence research and applications.,existing,3e806fdf8bef41c89f74d3d2f8085b66
+Alignment,Alignment in artificial intelligence research and applications.,existing,3f4d5dd80fd84dc8a21c001156f151c4
+Video,Video in artificial intelligence research and applications.,existing,3fccb0cd995840e098c4ee98b4f94428
+Agents,Agents in artificial intelligence research and applications.,existing,407e7ef01dd942a1b22dd2c21ba1ae56
+Computer Vision,Computer Vision in artificial intelligence research and applications.,existing,4090988abe254120a5d99433147c12da
+Speech,Speech in artificial intelligence research and applications.,existing,4414ff511dce45e9b94815027900eaf0
+Interpretability,Interpretability in artificial intelligence research and applications.,existing,4d3746a429604cc496144bce0d301c09
+Knowledge,Knowledge in artificial intelligence research and applications.,existing,522de6b3580b40e3afd02a5fb2512765
+Deep Learning,Deep Learning in artificial intelligence research and applications.,existing,55b439ffa3bc4abd9fa7c3cc67da13de
+Embeddings,Embeddings in artificial intelligence research and applications.,existing,6403ecc02d79496aabb86f02ee3e425c
+Foundations,Foundations in artificial intelligence research and applications.,existing,69e20c290851407088d498e9e9433512
+Regularization,Regularization in artificial intelligence research and applications.,existing,6fbf23087caf475aabcc9ebe8f41a960
+Scaling,Scaling in artificial intelligence research and applications.,existing,6ff00a8538194d60b23ae9fca93264a9
+Reinforcement Learning,Reinforcement Learning in artificial intelligence research and applications.,existing,70733b69332a4f81bcd496f7461ccc48
+Optimization,Optimization in artificial intelligence research and applications.,existing,7484fc59687d422282a35509b6926405
+Theory,Theory in artificial intelligence research and applications.,existing,751160bad2034f988620ebee3bc47f2c
+Prompting,Prompting in artificial intelligence research and applications.,existing,7ed294f0c4eb4d8ab3990daa6e74f82d
+Sequence Models,Sequence Models in artificial intelligence research and applications.,existing,85c908e92cc14f72b3d056ecfb71fa4e
+Safety,Safety in artificial intelligence research and applications.,existing,8f2e6d2a994d434f8913cf7271af8984
+Generative Models,Generative Models in artificial intelligence research and applications.,existing,bbb7b94002444dc38d2235b55ea57c5f
+Language Models,Language Models in artificial intelligence research and applications.,existing,bc5842d53fb74962bad893bccb9a1dd8
+Audio,Audio in artificial intelligence research and applications.,existing,bf802b0b128c416aac41936a9f580ba5
+Transfer Learning,Transfer Learning in artificial intelligence research and applications.,existing,c06faa9e8e6d4a4384ee15c868650eb7
+Multimodal,Multimodal in artificial intelligence research and applications.,existing,d20548e9d187443ab2a9961f06315804
+Nas,Nas in artificial intelligence research and applications.,existing,d360a8ed3ad2495eaeb935cc0f7ef3fe
+3d,3d in artificial intelligence research and applications.,existing,d3fa7824174f48649c1bf49faf14e2b5
+Diffusion,Diffusion in artificial intelligence research and applications.,existing,e9f040e4dec84167abc47a35ff486a3d
+Attention,Attention in artificial intelligence research and applications.,existing,f4243f857b5d43c780580aa47bb591fd
+Lifecycle,Applies lifecycle framing to organize planning delivery and iteration across production LLM systems.,draft,
+Observability and tracing,Implements observability and tracing to track system health diagnose failures and improve reliability over time.,draft,
+Deployment and serving,Executes deployment and serving to deliver model backed features as stable scalable services.,draft,
+Post training,Performs post training workflows to adapt base models for domain specific quality and safety requirements.,draft,
+Governance and risk,Applies governance and risk controls to keep LLM systems aligned with policy safety and audit needs.,draft,
+Cost and performance,Applies cost and performance analysis to balance latency quality and infrastructure efficiency in production.,draft,
+Automation,Builds automation workflows so evaluation deployment and monitoring steps run repeatably across releases.,draft,
+Orchestration and workflows,Builds orchestration and workflows to connect prompts tools and services into repeatable LLMOps processes.,draft,
+Retrieval augmented generation,Implements retrieval augmented generation to ground responses in trusted external knowledge and improve relevance.,draft,
+Model registry and versioning,Manages model registry and versioning so teams can trace changes reproduce results and control releases.,draft,
+Operations and maintenance,Uses operations and maintenance practices to keep LLM systems healthy secure and reliable after launch.,draft,
+Monitoring and evaluation,Runs monitoring and evaluation to measure quality detect drift and guide release decisions.,draft,
