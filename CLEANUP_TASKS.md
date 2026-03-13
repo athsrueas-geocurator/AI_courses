@@ -41,9 +41,9 @@ Purpose: track dataset cleanup work across sessions for `courses.csv` and `lesso
 
 ### 3. Fill currently empty high-value columns
 
-- [ ] `courses.csv`: backfill `Lessons` (list lesson names or IDs), `Goals` (2-4 outcomes/course), and `Tags` (5-8 normalized tags).
+- [x] `courses.csv`: backfill `Lessons` (list lesson names or IDs), `Goals` (2-4 outcomes/course), and `Tags` (5-8 normalized tags).
 - [x] `lessons.csv`: backfill `Stages` for all rows; either fill or intentionally deprecate `Related spaces`.
-- [ ] If `Related spaces` is not part of the model yet, remove it from both files instead of leaving it mostly empty.
+- [x] `Related spaces` policy finalized: keep column and populate consistently (do not leave mostly empty).
 
 ### 4. Normalize controlled vocabularies
 
@@ -77,9 +77,9 @@ Purpose: track dataset cleanup work across sessions for `courses.csv` and `lesso
 
 ### 2) Completeness backfill
 
-- [ ] Backfill `courses.csv` `Lessons` column
-- [ ] Backfill `courses.csv` `Goals` column (2-4 outcomes per course)
-- [ ] Decide `Related spaces` policy (populate or remove) and apply consistently to both files
+- [x] Backfill `courses.csv` `Lessons` column
+- [x] Backfill `courses.csv` `Goals` column (2-4 outcomes per course)
+- [x] Decide `Related spaces` policy (populate or remove) and apply consistently to both files
 - [ ] Backfill `lessons.csv` `Stages` for all rows
 
 ### 3) Taxonomy normalization
@@ -113,3 +113,19 @@ Purpose: track dataset cleanup work across sessions for `courses.csv` and `lesso
 - Latest run: pass (`python src/validate_csv_integrity.py`)
 - Course join integrity is now wired through `Course ID` and validated
 - `Stages` now backfilled for all rows using topic-derived stage labels
+
+## Related spaces notes
+
+- Queried Geo API testnet and identified candidate DAO spaces by page name:
+  - `AI` (`41e851610e13a19441c4d980f2f2ce6b`)
+  - `Technology` (`870e3b3068661e6280fad2ab456829bc`)
+  - `Geo Education` (`784bfddae3f3976118c561bf28195b44`)
+- Applied current policy: set `Related spaces=AI` for all courses and lessons (kept existing values where already `AI`).
+- Tool-level Geo helper issues are logged in `geo_api_errors.md`.
+
+## Course field backfill notes
+
+- Backfilled `courses.csv` `Lessons` from `lessons.csv` grouped by `Courses` and ordered by `Lesson number`.
+- Backfilled `courses.csv` `Goals` with 3 outcome statements per course.
+- Backfilled `courses.csv` `Tags` with normalized 5-8 tag sets per course.
+- Post-backfill integrity check passed: `python src/validate_csv_integrity.py`.
