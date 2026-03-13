@@ -43,3 +43,41 @@ When multiple URLs exist, I will prefer links that are:
 - **Stable**
 - **Beginner-appropriate as an entry point**
 - **Actionable** (docs/labs with clear steps)
+
+## Geo publisher CSV rules (important)
+
+The publisher expects these files and columns:
+
+- `courses.csv`: `Course ID`, `Name`, `Description`, `Providers`, `Web URL`, `Related spaces`, `Topics`, `Skills`, `Roles`, `Tags`, `Lessons`, `Goals`
+- `lessons.csv`: `Name`, `Description`, `Stages`, `Topics`, `Lesson number`, `Courses`, `Related spaces`, `Skills`, `Tags`, `Roles`, `Web URL`
+
+### Fields used only for linking (not published as values)
+
+- `Course ID` is a source key for cross-file linking.
+- Geo entity IDs are generated at publish time; do not try to prefill them in CSV.
+
+### Course -> Lesson linking behavior
+
+`courses.csv` `Lessons` is converted into relations to lesson entities.
+
+Supported token formats:
+- semicolon-separated lesson references
+- exact lesson names
+- numbered references like `1. Lesson name; 2. Lesson name`
+
+The publisher strips list ordinals (`^\d+\.`) and matches intelligently against:
+- existing lesson entities in the target space
+- lesson entities being created in the same publish run
+
+### Lesson -> Course linking behavior
+
+`lessons.csv` `Courses` must contain `Course ID` values from `courses.csv`.
+
+Example:
+- `lessons.csv` `Courses`: `azure-llmops-workshop`
+- matching `courses.csv` `Course ID`: `azure-llmops-workshop`
+
+### Goals field
+
+`courses.csv` `Goals` should be semicolon-separated goal names.
+If a goal does not exist yet, publisher mapping may create it (based on mapping decision settings).

@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 import csv
+import re
 import sys
+from collections import defaultdict
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -74,6 +76,7 @@ def main() -> int:
             errors.append(f"courses.csv:{idx} invalid URL format '{url}'")
 
     seen_lesson_keys = set()
+    lesson_names_by_course = defaultdict(set)
     for idx, row in enumerate(lessons, start=2):
         for field in required_lesson_fields:
             if not row.get(field, "").strip():
@@ -93,9 +96,31 @@ def main() -> int:
                 f"lessons.csv:{idx} references unknown Course ID '{course_ref}'"
             )
 
+        lesson_name = row.get("Name", "").strip()
+        if course_ref and lesson_name:
+            lesson_names_by_course[course_ref].add(lesson_name)
+
         url = row.get("Web URL", "").strip()
         if url and not is_valid_url(url):
             errors.append(f"lessons.csv:{idx} invalid URL format '{url}'")
+
+    for idx, row in enumerate(courses, start=2):
+        course_id = row.get("Course ID", "").strip()
+        lessons_value = row.get("Lessons", "").strip()
+        if not lessons_value:
+            continue
+
+        lesson_tokens = [token.strip() for token in lessons_value.split(";") if token.strip()]
+        for token in lesson_tokens:
+            if re.match(r"^\d+\.\s+", token):
+                errors.append(
+                    f"courses.csv:{idx} Lessons token has numeric prefix '{token}'"
+                )
+
+            if course_id and token not in lesson_names_by_course.get(course_id, set()):
+                errors.append(
+                    f"courses.csv:{idx} Lessons token not found in lessons.csv for Course ID '{course_id}': '{token}'"
+                )
 
     if errors:
         for err in errors:
@@ -103,7 +128,9 @@ def main() -> int:
         print(f"\nValidation failed with {len(errors)} issue(s).")
         return 1
 
-    print("Validation passed: course/lesson links, uniqueness, required fields, and URL format are valid.")
+    print(
+        "Validation passed: course/lesson links, lesson-token mapping, uniqueness, required fields, and URL format are valid."
+    )
     return 0
 
 
