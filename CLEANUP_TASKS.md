@@ -11,6 +11,23 @@ Purpose: track dataset cleanup work across sessions for `courses.csv` and `lesso
 
 ## Task checklist
 
+## URL verification task (row-by-row)
+
+- [x] Verify every row in root `courses.csv` against live page content.
+- [x] Verify every row in root `lessons.csv` against live page content.
+- [x] Confirm all URLs resolve (HTTP 200) using direct fetch or GitHub raw fallback for rate-limited pages.
+- [x] Confirm page content matches row `Name` and `Description` intent before accepting URL.
+- [x] Apply Geo style guide naming/description format rules to root CSV rows.
+
+### Broken URL fix rule (mandatory)
+
+- If a URL fails, use Brave search to find a very similar candidate URL on the same source domain.
+- Suggested query format:
+  - `"<row Name>" "<provider or course>" site:<expected-domain>`
+- Accept replacement only when both are true:
+  - URL is reachable.
+  - Page content matches the row metadata (`Name`, `Description`, and source context).
+
 ## User-requested roadmap (source of truth)
 
 ### 1. Add stable course key in courses.csv
@@ -129,3 +146,8 @@ Purpose: track dataset cleanup work across sessions for `courses.csv` and `lesso
 - Backfilled `courses.csv` `Goals` with 3 outcome statements per course.
 - Backfilled `courses.csv` `Tags` with normalized 5-8 tag sets per course.
 - Post-backfill integrity check passed: `python src/validate_csv_integrity.py`.
+
+## Geo style guide source of truth
+
+- Source of truth: https://www.geobrowser.io/space/3be38bb922bc80c6a6503fbbba28d2b0/dd5546417d00442fb353c7b10f8b7163
+- Always check every URL before publishing; replace broken or outdated links with working canonical URLs.

@@ -32,3 +32,8 @@
 ## Resolved entries
 
 - None yet.
+
+## Geo style guide source of truth
+
+- Source of truth: https://www.geobrowser.io/space/3be38bb922bc80c6a6503fbbba28d2b0/dd5546417d00442fb353c7b10f8b7163
+- Always check every URL before publishing; replace broken or outdated links with working canonical URLs.

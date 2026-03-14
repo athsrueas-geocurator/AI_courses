@@ -81,3 +81,22 @@ Example:
 
 `courses.csv` `Goals` should be semicolon-separated goal names.
 If a goal does not exist yet, publisher mapping may create it (based on mapping decision settings).
+
+## Geo style guide source of truth
+
+- Source of truth: https://www.geobrowser.io/space/3be38bb922bc80c6a6503fbbba28d2b0/dd5546417d00442fb353c7b10f8b7163
+- Always check every URL before publishing; replace broken or outdated links with working canonical URLs.
+
+### Broken URL remediation protocol (required)
+
+1. Test the current URL directly.
+2. If the URL is broken or outdated, run Brave search with a similarity query:
+   - `"<entity name>" "<provider>" site:<domain>`
+   - example: `"Building with the Claude API" "Anthropic" site:anthropic.skilljar.com`
+3. Pick the closest candidate URL (same provider/domain, highly similar slug/title).
+4. Open the candidate page and verify content alignment before updating CSV:
+   - page title/H1 matches the `Name`
+   - page content matches the `Description` intent
+   - provider/platform context matches the row (`Providers`, `Courses` where relevant)
+5. Replace the URL only after both checks pass: reachable URL + content match.
+6. Re-run URL/content audit across both root CSVs before publish.
